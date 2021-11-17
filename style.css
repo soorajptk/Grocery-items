@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+caption {
+  text-shadow: 5px 5px 10px red;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+th {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  background-color: #fff;
+  color: black;
+}
+td {
+  border-right: 2px solid white;
+  color: white;
+  background-color: rgb(130, 118, 202);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+table {
+  border: 5px outset white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 2px solid white;
+}
+th,
+td {
+  padding: 5px 15px;
+}
+#btn {
+  cursor: pointer;
+  width: 15%;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  background: transparent;
+  border: 2px outset #fff;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+#btn:hover {
+  background: rgb(6, 59, 219);
+}
+
+@media (max-width: 1200px) {
+  table {
+    margin-top: 50px;
+  }
+  td {
+    font-size: 15px;
+  }
+  th,
+  td {
+    padding: 0 0;
+  }
+  #btn {
+    font-size: 15px;
+  }
+  #btn1 {
+    margin-right: -15px;
+  }
+  #box {
+    width: 100px;
+  }
+}
+
+input[type="text"] {
+  width: 40px;
+}
+input[type="number"] {
+  width: 40px;
+}
+#btn1 {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  border: 2px outset #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#btn1:hover {
+  background: rgb(6, 59, 219);
+}
+#deo {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+#box {
+  border: 2px outset #fff;
+  width: fit-content;
+  text-align: center;
+  color: #fff;
+}
+#remain {
+  color: #fff;
+}

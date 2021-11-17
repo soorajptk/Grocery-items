@@ -1,0 +1,94 @@
+{
+  "array": [
+    {
+      "serial_no": 101,
+      "name": "<label for='carrot' id='carrots'>Carrot</label>",
+      "quantity": "1kg",
+      "unit": "-",
+      "department": "vegibales",
+      "Notes": "take fresh carrots",
+      "status": "<input id='carrot' onclick='edit(this,carrots)' type='checkbox'>"
+    },
+    {
+      "serial_no": 102,
+      "name": "<label for='cucumbar' id='cucumbars'>Cucumbar</label>",
+      "quantity": "2kg",
+      "unit": "-",
+      "department": "vegibales",
+      "Notes": "take fresh cucumbar",
+      "status": "<input id='cucumbar' onclick='edit(this,cucumbars)' type='checkbox'>"
+    },
+    {
+      "serial_no": 103,
+      "name": "<label for='tomato' id='tomatos'>Tomato</label>",
+      "quantity": "1kg",
+      "unit": "-",
+      "department": "vegibales",
+      "Notes": "take fresh Tomatos",
+      "status": "<input id='tomato' onclick='edit(this,tomatos)' type='checkbox'>"
+    },
+    {
+      "serial_no": 104,
+      "name": "<label for='orange' id='oranges'>Orange</label>",
+      "quantity": "3kg",
+      "unit": "-",
+      "department": "fruits",
+      "Notes": "take fresh oranges",
+      "status": "<input id='orange' onclick='edit(this,oranges)' type='checkbox'>"
+    },
+    {
+      "serial_no": 105,
+      "name": "<label for='apple' id='apples'>Apple</label>",
+      "quantity": "1.5kg",
+      "unit": "-",
+      "department": "fruits",
+      "Notes": "take fresh Apples",
+      "status": "<input id='apple' onclick='edit(this,apples)' type='checkbox'>"
+    },
+    {
+      "serial_no": 106,
+      "name": "<label for='mango' id='mangos'>Mango</label>",
+      "quantity": "2.5kg",
+      "unit": "-",
+      "department": "fruits",
+      "Notes": "take fresh Mnago",
+      "status": "<input id='mango' onclick='edit(this,mangos)' type='checkbox'>"
+    },
+    {
+      "serial_no": 107,
+      "name": "<label for='milk' id='milks'>Skim Milk</label>",
+      "quantity": "1L",
+      "unit": "1",
+      "department": "Dairy",
+      "Notes": " choose milma",
+      "status": "<input id='milk' onclick='edit(this,milks)' type='checkbox'>"
+    },
+    {
+      "serial_no": 108,
+      "name": "<label for='yogurt' id='yogurts'>Yogurt</yogurt>",
+      "quantity": "1L",
+      "unit": "2",
+      "department": "Dairy",
+      "Notes": "choose milma",
+      "status": "<input id='yogurt' onclick='edit(this,yogurts)' type='checkbox'>"
+    },
+    {
+      "serial_no": 109,
+      "name": "<label for='salt' id='salts'>Salt</label>",
+      "quantity": "1kg",
+      "unit": "2",
+      "department": "condiments",
+      "Notes": "salt powder",
+      "status": "<input id='salt' onclick='edit(this,salts)' type='checkbox'>"
+    },
+    {
+      "serial_no": 110,
+      "name": "<label for='pepper' id='peppers'>Pepper</pepper>",
+      "quantity": "250g",
+      "unit": "1",
+      "department": "condiments",
+      "Notes": "pepper powder",
+      "status": "<input id='pepper' onclick='edit(this,peppers)' type='checkbox'>"
+    }
+  ]
+}
